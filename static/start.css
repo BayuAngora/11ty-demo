@@ -1,0 +1,80 @@
+html {
+scroll-behavior: smooth;
+text-rendering: optimizeSpeed;
+-webkit-tap-highlight-color: transparent;
+}
+body {
+font-family: "calibri", sans-serif;
+font-size: 1em;
+margin: 0;
+color: #ddd;
+background: #000;
+animation: fadeUp 1s;
+}
+@keyframes fadeUp {
+from { opacity: 0;
+transform: translate3d(0, 5px, 0); }
+to { opacity: 1;
+transform: translate3d(0, 0, 0); }
+}
+::selection {
+color: #e00;
+background: transparent;
+}
+*, ::before, ::after {
+box-sizing: border-box;
+}
+main {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+font-weight: 700;
+margin: 0 auto;
+}
+h1, h2, h3 {
+font-size: 1.65em;
+}
+h6 a {
+font-size: 1.125em;
+color: #ddd;
+text-decoration: none;
+border-bottom: 2px solid #e00;
+}
+.reaper {
+width: 15em;
+margin: 1.25em auto -2.5em;
+}
+.menu {
+margin: 0 auto;
+}
+.menu-icon {
+width: 3em;
+fill: #ddd;
+vertical-align: middle;
+transition: fill 1s ease;
+}
+.menu-icon:hover {
+fill: #e00;
+}
+.hidden {
+display: none;
+}
+@media (min-width: 720px) {
+h1, h2, h3 {
+font-size: 3.25em;
+}
+h6 a {
+font-size: 2.2em;
+}
+.reaper {
+width: 30em;
+margin: 2.5em auto -5em;
+}
+.menu-icon {
+width: 6em;
+}
+}
