@@ -1,6 +1,6 @@
 ---
 title: Third Blog
-weight: 3001l3
+weight: 3003
 ---
 
 This is my third blog!
