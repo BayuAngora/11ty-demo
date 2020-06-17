@@ -1,0 +1,17 @@
+{
+  "title": "Bayu Angora",
+  "url": "https://11ty-demo.onrender.com",
+  "baseurl": "https://11ty-demo.onrender.com",
+  "description": "A highly passionate artist, blogger, metalhead, vaperocker. Listed on various creative awards.",
+  "menu1": "blog",
+  "menu2": "poem",
+  "menu3": "quote",
+  "menu4": "about",
+  "cdn": "https://angora.me",
+  "cover": "https://picsum.photos/seed/abstract/680/300",
+  "facebook": "https://fb.com/BayuAngora",
+  "twitter": "https://twitter.com/BayuAngora",
+  "instagram": "https://instagram.com/BayuAngora",
+  "copyright": "• Bayu Angora © All Rights Reserved •",
+  "copyrightlink": "https://tiny.cc/-copyrighted"
+}
