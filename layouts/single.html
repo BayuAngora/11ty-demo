@@ -106,12 +106,12 @@
 </div>
 
 <div class="pagination">
-<a class="prev" href="{% if pagination.href.previous  %}{{ pagination.href.previous }}{% else %}#{% endif %}">« Prev</a>
+<a class="prev" href="{% if previousPost %}{{ previousPost.url }}{% endif %}">« Prev</a>
 <div id="mode">
 <div id="darkBtn"><img alt="{{ site.title }}" src="{{ site.cdn }}/bayuangora.svg"></div>
 <div id="lightBtn" class="hidden"><img alt="{{ site.title }}" src="{{ site.cdn }}/bayuangora.svg"></div>
 </div>
-<a class="next" href="{% if pagination.href.next %}{{ pagination.href.next }}{% else %}#{% endif %}">Next »</a>
+<a class="next" href="{% if nextPost %}{{ nextPost.url }}{% endif %}">Next »</a>
 </div>
 
 </main>
