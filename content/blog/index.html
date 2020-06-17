@@ -1,0 +1,15 @@
+{% assign previousIndex = pagination.pageNumber | minus: 1 %}
+{% assign previousItem = collections.posts[previousIndex] %}
+{% assign nextIndex = pagination.pageNumber | plus: 1 %}
+{% assign nextItem = collections.posts[nextIndex] %}
+
+<pre>
+  {% if previousItem.data.title %}
+    Previous title: {{ previousItem.data.title }}
+    Previous URL: {{ pagination.previousPageHref }}
+  {% endif %}
+  {% if nextItem.data.title %}
+    Next title: {{ nextItem.data.title }}
+    Next URL: {{ pagination.nextPageHref }}
+  {% endif %}
+</pre>
