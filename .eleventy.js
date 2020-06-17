@@ -1,10 +1,5 @@
 module.exports = function(eleventyConfig) {
 
-  eleventyConfig.addCollection("blog", function(collection) {
-    // get unsorted items
-    return collection.getAll();
-  });
-
   eleventyConfig.addShortcode("excerpt", article => extractExcerpt(article));
 
   eleventyConfig.addPassthroughCopy("static");
