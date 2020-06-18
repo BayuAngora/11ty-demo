@@ -11,6 +11,13 @@ color: #ddd;
 background: #000;
 animation: fadeUp 1s;
 }
+main {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+align-items: center;
+justify-content: center;
+}
 @keyframes fadeUp {
 from { opacity: 0;
 transform: translate3d(0, 5px, 0); }
@@ -23,13 +30,6 @@ background: transparent;
 }
 *, ::before, ::after {
 box-sizing: border-box;
-}
-main {
-display: flex;
-flex-direction: column;
-min-height: 100vh;
-align-items: center;
-justify-content: center;
 }
 h1, h2, h3, h4, h5, h6 {
 font-weight: 700;
