@@ -44,10 +44,6 @@ color: #ddd;
 text-decoration: none;
 border-bottom: 2px solid #e00;
 }
-.grim {
-display: grid;
-place-content: center;
-}
 .reaper {
 width: 15em;
 margin: 1.25em auto -2.5em;
