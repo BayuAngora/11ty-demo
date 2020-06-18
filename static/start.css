@@ -25,8 +25,11 @@ background: transparent;
 box-sizing: border-box;
 }
 main {
-display: grid;
-place-content: center;
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+justify-content: center;
+text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
 font-weight: 700;
@@ -40,6 +43,10 @@ font-size: 1.125em;
 color: #ddd;
 text-decoration: none;
 border-bottom: 2px solid #e00;
+}
+.grim {
+display: grid;
+place-content: center;
 }
 .reaper {
 width: 15em;
