@@ -14,21 +14,21 @@ word-break: break-word;
 text-shadow: .2px .2px .5px #222;
 transition: color 1s ease, background 1s ease;
 }
+main {
+position: relative;
+max-width: 720px;
+padding: 20px;
+margin: auto;
+}
+main, article, section {
+display: block;
+}
 ::selection {
 color: #e00;
 background: transparent;
 }
 *, ::before, ::after {
 box-sizing: border-box;
-}
-main, article, section {
-display: block;
-}
-main {
-position: relative;
-max-width: 720px;
-padding: 20px;
-margin: auto;
 }
 h1, h2, h3, h4, h5, h6, p, a {
 margin: 0 0 12px;
